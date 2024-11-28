@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 50px 0;
+    background-color: transparent;
+    transition: var(--t);
+
+    @media screen and (max-width: 800px) {
+        top: unset;
+        bottom: 0;
+        padding: 20px 0;
+        background-color: var(--c-gray);
+        box-shadow: var(--shadow);
+        transform: translate(0, 100%);
+    }
+
+    &__row {
+
+    }
+
+    &__container {
+
+    }
+
+    .logo {
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    .button-1 {
+        @media screen and (max-width: 800px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &._scrolled {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: var(--c-gray);
+
+        @media screen and (max-width: 800px) {
+            transform: translate(0, 0);
+        }
+    }
+}

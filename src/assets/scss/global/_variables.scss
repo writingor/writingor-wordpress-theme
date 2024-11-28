@@ -1,0 +1,22 @@
+:root {
+    --c-primary: #ebd300;
+    --c-error: #eb001f;
+    --c-secondary: #ffffff;
+    --c-white: #ffffff;
+    --c-black: #0c0d0e;
+    --c-gray: #1c1e1f;
+    --c-gray-dark: #101113;
+    --c-blue: #1323d6;
+
+    --ff: sans-serif;
+
+    --t: all ease-out 200ms;
+    --t-2: all ease-out 600ms;
+    --t-long: all ease-out 1800ms;
+
+    --shadow: 0 0 .85rem var(--c-black);
+    --light: 0 0 2rem var(--c-primary);
+    --light-2: 0 0 4rem var(--c-blue);
+
+    --sbw: 0px;
+}

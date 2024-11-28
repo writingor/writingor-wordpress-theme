@@ -1,0 +1,24 @@
+.footer {
+    position: relative;
+    z-index: 2;
+    padding: 2rem 0;
+    background-color: var(--c-black);
+
+    @media screen and (max-width: 800px) {
+        padding-bottom: 8.5rem;
+    }
+
+    &__row {
+        &_1 {
+            height: 200px;
+        }
+    }
+
+    a.text-s {
+        @media (hover: hover) {
+            &:hover {
+                color: var(--c-primary);
+            }
+        }
+    }
+}

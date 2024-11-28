@@ -1,0 +1,178 @@
+@media (hover: hover) {
+    a,
+    button,
+    input,
+    select,
+    textarea,
+    .--set-mouse {
+        &:hover {
+            transition: var(--t);
+        }
+    }
+}
+
+._desktop {
+    @media screen and (max-width: 1000px) {
+        display: none !important;
+    }
+}
+
+._mobile {
+    @media screen and (min-width: 1001px) {
+        display: none !important;
+    }
+}
+
+._c-primary {
+    color: var(--c-primary);
+}
+
+._bgc-primary {
+    background-color: var(--c-primary);
+}
+
+._pos-a {
+    position: absolute;
+}
+
+._pos-rel {
+    position: relative;
+}
+
+._fw-light {
+    font-weight: 300;
+}
+
+._fsz-m {
+    font-size: 1.25em;
+}
+
+._lh-m {
+    line-height: 1.5em;
+}
+
+._lh-s {
+    line-height: 1.25em;
+}
+
+._color-primary {
+    color: var(--primary-color);
+}
+
+._color-white {
+    color: var(--white-color);
+}
+
+._mt-mb-default {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    } 
+}
+
+._mt-mb-l {
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+._pt-pb-m {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+._pt-pb-l {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+._pt-pb-xl {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+._bgc-primary {
+    background-color: var(--primary-color);
+}
+._mt-mb-m {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+._radius-half {
+    border-radius: 50%;
+}
+
+._mt-mb-s {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+._mt-mb-xs {
+    margin-top: .75em;
+    margin-bottom: .75em;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+._centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+._no-shadow {
+    box-shadow: none !important;
+}
+
+._pos-s {
+    position: sticky;
+    align-self: start;
+}
+
+._t-s {
+    top: 2rem;
+}
+
+._ai-s {
+    align-items: start;
+}
+
+._o-h {
+    overflow: hidden;
+}

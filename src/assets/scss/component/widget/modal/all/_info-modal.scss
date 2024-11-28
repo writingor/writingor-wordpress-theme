@@ -1,0 +1,18 @@
+.info-modal {
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 1px solid var(--c-gray);
+    box-shadow: var(--shadow);
+    max-width: 420px;
+    color: var(--c-black);
+
+    &__title {
+        font-size: 2.5rem;
+        color: inherit;
+    }
+
+    &__text {
+        font-size: 1rem;
+        color: inherit;
+    }
+}

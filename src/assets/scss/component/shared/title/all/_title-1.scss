@@ -1,0 +1,12 @@
+.title-1 {
+    font-size: 5rem;
+
+    @media screen and (max-width: 800px) {
+        font-size: 3rem;
+    }
+
+    span {
+        font-weight: inherit;
+        transition: var(--t-long);
+    }
+}

@@ -1,0 +1,11 @@
+.benefit-card-1 {
+    position: relative;
+    width: 100%;
+    padding: 2rem 2rem 3rem;
+    border-radius: 2rem;
+    transition: transform linear 50ms;
+
+    @media screen and (max-width: 1000px) {
+        border: 1px solid var(--c-gray);
+    }
+}

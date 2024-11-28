@@ -1,0 +1,18 @@
+.logo {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    span {
+        font-weight: inherit;
+    }
+
+    @media (hover: hover) {
+        &:hover {
+            color: var(--c-primary);
+        }
+    }
+}

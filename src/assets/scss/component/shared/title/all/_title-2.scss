@@ -1,0 +1,10 @@
+.title-2 {
+    font-family: var(--ff-2);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--white-color);
+
+    @media screen and (max-width: 800px) {
+        font-size: 2.25rem;
+    }
+}

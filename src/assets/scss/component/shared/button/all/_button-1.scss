@@ -1,0 +1,87 @@
+.button-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: var(--c-primary);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--c-black);
+    white-space: nowrap;
+    text-transform: uppercase;
+    transition: var(--t-2) !important;
+
+    span {
+        font-weight: inherit;
+    }
+
+    @media (hover: hover) {
+        &:hover {
+            box-shadow: var(--light);
+        }
+    }
+
+    &:focus {
+        span {
+            &:nth-child(1) {
+                animation: letterTransform 300ms ease-out 0ms 2 alternate;
+            }
+            &:nth-child(2) {
+                animation: letterTransform 300ms ease-out 100ms 2 alternate;
+            }
+            &:nth-child(3) {
+                animation: letterTransform 300ms ease-out 200ms 2 alternate;
+            }
+            &:nth-child(4) {
+                animation: letterTransform 300ms ease-out 300ms 2 alternate;
+            }
+            &:nth-child(5) {
+                animation: letterTransform 300ms ease-out 400ms 2 alternate;
+            }
+            &:nth-child(6) {
+                animation: letterTransform 300ms ease-out 500ms 2 alternate;
+            }
+            &:nth-child(7) {
+                animation: letterTransform 300ms ease-out 600ms 2 alternate;
+            }
+            &:nth-child(8) {
+                animation: letterTransform 300ms ease-out 700ms 2 alternate;
+            }
+            &:nth-child(9) {
+                animation: letterTransform 300ms ease-out 800ms 2 alternate;
+            }
+            &:nth-child(10) {
+                animation: letterTransform 300ms ease-out 900ms 2 alternate;
+            }
+            &:nth-child(11) {
+                animation: letterTransform 300ms ease-out 1000ms 2 alternate;
+            }
+            &:nth-child(12) {
+                animation: letterTransform 300ms ease-out 1100ms 2 alternate;
+            }
+            &:nth-child(13) {
+                animation: letterTransform 300ms ease-out 1200ms 2 alternate;
+            }
+            &:nth-child(14) {
+                animation: letterTransform 300ms ease-out 1300ms 2 alternate;
+            }
+            &:nth-child(15) {
+                animation: letterTransform 300ms ease-out 1400ms 2 alternate;
+            }
+        }
+    }
+}
+
+@keyframes letterTransform {
+    0% {
+        transform: translate(0%, 0%) skewX(0) scale(1) rotate(0deg);
+    }
+    50% {
+        transform: translate(-15%, -10%) skew(-3deg, 1deg) scale(1.15) rotate(-2deg);
+    }
+    100% {
+        transform: translate(-35%, -5%) skew(-6deg, 2deg) scale(1.35) rotate(-5deg);
+    }
+}

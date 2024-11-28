@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font-family: var(--ff);
+    font-size: inherit;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+html {
+    color: var(--c-secondary);
+    font-family: var(--ff);
+    font-size: 16px;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 14px;
+    }
+}
+
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    font-size: inherit;
+    color: inherit;
+    outline: none;
+    border: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong,
+b {
+    font-weight: 700;
+    font-size: inherit;
+}
